@@ -1,0 +1,33 @@
+{
+  "generated": "2026-06-25T12:28:02.459Z",
+  "totalServices": 18206,
+  "totalProviders": 7206,
+  "totalPlaces": 1249848,
+  "byRating": {
+    "Excellent": 25,
+    "Exceeding NQS": 3203,
+    "Meeting NQS": 12574,
+    "Working Towards NQS": 1324,
+    "Significant Improvement Required": 10,
+    "Other": 0
+  },
+  "byType": {
+    "OSHC (Vacation)": 5121,
+    "Centre-Based Care": 1071,
+    "Long Day Care": 9705,
+    "Preschool (School)": 897,
+    "Preschool (Stand-alone)": 3087,
+    "Other": 728,
+    "Family Day Care": 352
+  },
+  "statePopChildren012": {
+    "NSW": 1320000,
+    "VIC": 1080000,
+    "QLD": 880000,
+    "WA": 440000,
+    "SA": 270000,
+    "TAS": 80000,
+    "ACT": 70000,
+    "NT": 50000
+  }
+}

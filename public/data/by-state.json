@@ -1,0 +1,146 @@
+{
+  "NSW": {
+    "code": "NSW",
+    "name": "New South Wales",
+    "services": 6159,
+    "places": 382246,
+    "ratings": {
+      "Excellent": 10,
+      "Exceeding NQS": 1114,
+      "Meeting NQS": 4264,
+      "Working Towards NQS": 418,
+      "Significant Improvement Required": 7,
+      "Other": 0
+    },
+    "ratedCount": 5813,
+    "placesPer1000": 289.6,
+    "pctExceedingPlus": 19.3,
+    "pctWorkingTowards": 7.2
+  },
+  "VIC": {
+    "code": "VIC",
+    "name": "Victoria",
+    "services": 5032,
+    "places": 356617,
+    "ratings": {
+      "Excellent": 7,
+      "Exceeding NQS": 1066,
+      "Meeting NQS": 3420,
+      "Working Towards NQS": 171,
+      "Significant Improvement Required": 2,
+      "Other": 0
+    },
+    "ratedCount": 4666,
+    "placesPer1000": 330.2,
+    "pctExceedingPlus": 23,
+    "pctWorkingTowards": 3.7
+  },
+  "QLD": {
+    "code": "QLD",
+    "name": "Queensland",
+    "services": 3326,
+    "places": 268696,
+    "ratings": {
+      "Excellent": 6,
+      "Exceeding NQS": 466,
+      "Meeting NQS": 2437,
+      "Working Towards NQS": 278,
+      "Significant Improvement Required": 0,
+      "Other": 0
+    },
+    "ratedCount": 3187,
+    "placesPer1000": 305.3,
+    "pctExceedingPlus": 14.8,
+    "pctWorkingTowards": 8.7
+  },
+  "WA": {
+    "code": "WA",
+    "name": "Western Australia",
+    "services": 1510,
+    "places": 96253,
+    "ratings": {
+      "Excellent": 0,
+      "Exceeding NQS": 57,
+      "Meeting NQS": 1196,
+      "Working Towards NQS": 134,
+      "Significant Improvement Required": 0,
+      "Other": 0
+    },
+    "ratedCount": 1387,
+    "placesPer1000": 218.8,
+    "pctExceedingPlus": 4.1,
+    "pctWorkingTowards": 9.7
+  },
+  "SA": {
+    "code": "SA",
+    "name": "South Australia",
+    "services": 1322,
+    "places": 85220,
+    "ratings": {
+      "Excellent": 0,
+      "Exceeding NQS": 284,
+      "Meeting NQS": 759,
+      "Working Towards NQS": 238,
+      "Significant Improvement Required": 0,
+      "Other": 0
+    },
+    "ratedCount": 1281,
+    "placesPer1000": 315.6,
+    "pctExceedingPlus": 22.2,
+    "pctWorkingTowards": 18.6
+  },
+  "TAS": {
+    "code": "TAS",
+    "name": "Tasmania",
+    "services": 244,
+    "places": 14432,
+    "ratings": {
+      "Excellent": 0,
+      "Exceeding NQS": 47,
+      "Meeting NQS": 144,
+      "Working Towards NQS": 36,
+      "Significant Improvement Required": 1,
+      "Other": 0
+    },
+    "ratedCount": 228,
+    "placesPer1000": 180.4,
+    "pctExceedingPlus": 20.6,
+    "pctWorkingTowards": 15.8
+  },
+  "ACT": {
+    "code": "ACT",
+    "name": "Australian Capital Territory",
+    "services": 373,
+    "places": 31195,
+    "ratings": {
+      "Excellent": 2,
+      "Exceeding NQS": 150,
+      "Meeting NQS": 165,
+      "Working Towards NQS": 32,
+      "Significant Improvement Required": 0,
+      "Other": 0
+    },
+    "ratedCount": 349,
+    "placesPer1000": 445.6,
+    "pctExceedingPlus": 43.6,
+    "pctWorkingTowards": 9.2
+  },
+  "NT": {
+    "code": "NT",
+    "name": "Northern Territory",
+    "services": 234,
+    "places": 14901,
+    "ratings": {
+      "Excellent": 0,
+      "Exceeding NQS": 19,
+      "Meeting NQS": 184,
+      "Working Towards NQS": 16,
+      "Significant Improvement Required": 0,
+      "Other": 0
+    },
+    "ratedCount": 219,
+    "placesPer1000": 298,
+    "pctExceedingPlus": 8.7,
+    "pctWorkingTowards": 7.3
+  }
+}
