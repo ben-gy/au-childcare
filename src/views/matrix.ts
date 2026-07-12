@@ -38,7 +38,7 @@ export function mountMatrix(el: HTMLElement, app: AppData): void {
         <thead>
           <tr>
             <th class="matrix-name">Service</th>
-            ${QUALITY_AREAS.map((q) => `<th title="Quality Area ${q.n}: ${escapeHtml(q.name)}">QA${q.n}</th>`).join('')}
+            ${QUALITY_AREAS.map((q) => `<th data-tip="Quality Area ${q.n}: ${escapeHtml(q.name)}" aria-label="Quality Area ${q.n}: ${escapeHtml(q.name)}">QA${q.n}</th>`).join('')}
           </tr>
         </thead>
         <tbody>
@@ -48,7 +48,10 @@ export function mountMatrix(el: HTMLElement, app: AppData): void {
                 <strong>${escapeHtml(r.name)}</strong>
                 <div class="matrix-sub">${escapeHtml(r.suburb)}, ${escapeHtml(r.state)}</div>
               </td>
-              ${r.qa.map((q) => `<td class="matrix-cell" style="background:${ratingColor(q)}" title="${escapeHtml(q || 'Not rated')}"><span>${shortRating(q)}</span></td>`).join('')}
+              ${r.qa.map((q, i) => {
+                const tip = escapeHtml(`QA${QUALITY_AREAS[i].n} ${QUALITY_AREAS[i].name}: ${q || 'Not rated'}`);
+                return `<td class="matrix-cell" style="background:${ratingColor(q)}" data-tip="${tip}" aria-label="${tip}"><span>${shortRating(q)}</span></td>`;
+              }).join('')}
             </tr>
           `).join('')}
         </tbody>

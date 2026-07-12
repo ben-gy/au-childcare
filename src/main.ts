@@ -1,6 +1,7 @@
 import './style.css';
 import { loadData, type AppData } from './data';
 import { installGlossary } from './glossaryTooltip';
+import { initTooltip } from './tooltip';
 import { mountSearch } from './views/search';
 import { mountOverview } from './views/overview';
 import { mountLeaderboards } from './views/leaderboards';
@@ -203,6 +204,7 @@ function closeAbout() {
 async function bootstrap() {
   renderShell();
   installGlossary();
+  initTooltip();
   const main = document.getElementById('main')!;
   main.innerHTML = `<div class="loading"><span class="loading-spinner"></span>Loading every Australian childcare service…</div>`;
   try {

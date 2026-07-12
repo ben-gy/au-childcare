@@ -70,24 +70,29 @@ export function mountFlow(el: HTMLElement, app: AppData): void {
         'Z',
       ].join(' ');
 
-      ribbons.push(`<path d="${path}" fill="${ratingColor(r)}" fill-opacity="0.55" stroke="${ratingColor(r)}" stroke-opacity="0.3"><title>${escapeHtml(node.p.name)} — ${escapeHtml(r)}: ${count} services</title></path>`);
+      const tip = escapeHtml(`${node.p.name} — ${r}: ${formatNumber(count)} services`);
+      ribbons.push(`<path d="${path}" fill="${ratingColor(r)}" fill-opacity="0.55" stroke="${ratingColor(r)}" stroke-opacity="0.3" data-tip="${tip}" aria-label="${tip}"></path>`);
       usedY += h;
     }
   }
 
-  const leftLabels = lefts.map((n) => `
+  const leftLabels = lefts.map((n) => {
+    const tip = escapeHtml(`${n.p.name} — ${formatNumber(n.p.ratedCount)} rated services`);
+    return `
     <g>
-      <rect x="${leftX - nodeWidth}" y="${n.y}" width="${nodeWidth}" height="${n.h}" fill="#1e3a5f" />
-      <text x="${leftX - nodeWidth - 6}" y="${n.y + n.h / 2}" text-anchor="end" alignment-baseline="middle" font-size="11" fill="#1f2937">${escapeHtml(n.p.name.length > 32 ? n.p.name.slice(0, 31) + '…' : n.p.name)} <tspan fill="#6b7280">(${formatNumber(n.p.ratedCount)})</tspan></text>
+      <rect x="${leftX - nodeWidth}" y="${n.y}" width="${nodeWidth}" height="${n.h}" fill="#1e3a5f" data-tip="${tip}" aria-label="${tip}" />
+      <text x="${leftX - nodeWidth - 6}" y="${n.y + n.h / 2}" text-anchor="end" alignment-baseline="middle" font-size="11" fill="#1f2937" data-tip="${tip}">${escapeHtml(n.p.name.length > 32 ? n.p.name.slice(0, 31) + '…' : n.p.name)} <tspan fill="#6b7280">(${formatNumber(n.p.ratedCount)})</tspan></text>
     </g>
-  `).join('');
+  `;
+  }).join('');
   const rightLabels = RATING_ORDER.map((r) => {
     const right = rights[r];
     if (right.h <= 0) return '';
+    const tip = escapeHtml(`${r} — ${formatNumber(rightTotals[r] || 0)} services across these ${top.length} providers`);
     return `
       <g>
-        <rect x="${rightX}" y="${right.y}" width="${nodeWidth}" height="${right.h}" fill="${ratingColor(r)}" />
-        <text x="${rightX + nodeWidth + 6}" y="${right.y + right.h / 2}" alignment-baseline="middle" font-size="11" fill="#1f2937">${escapeHtml(r)} <tspan fill="#6b7280">(${formatNumber(rightTotals[r])})</tspan></text>
+        <rect x="${rightX}" y="${right.y}" width="${nodeWidth}" height="${right.h}" fill="${ratingColor(r)}" data-tip="${tip}" aria-label="${tip}" />
+        <text x="${rightX + nodeWidth + 6}" y="${right.y + right.h / 2}" alignment-baseline="middle" font-size="11" fill="#1f2937" data-tip="${tip}">${escapeHtml(r)} <tspan fill="#6b7280">(${formatNumber(rightTotals[r])})</tspan></text>
       </g>
     `;
   }).join('');

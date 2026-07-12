@@ -44,7 +44,7 @@ function header(): string {
 
 function row(s: IndexedService): string {
   const qaCells = s.qa
-    .map((q, i) => `<span class="qa-pill ${ratingClass(q)}" title="Quality Area ${i + 1}: ${escapeHtml(q || 'Not rated')}">${i + 1}</span>`)
+    .map((q, i) => `<span class="qa-pill ${ratingClass(q)}" data-tip="Quality Area ${i + 1}: ${escapeHtml(q || 'Not rated')}" aria-label="Quality Area ${i + 1}: ${escapeHtml(q || 'Not rated')}">${i + 1}</span>`)
     .join('');
   return `
     <tr data-san="${escapeHtml(s.san)}">

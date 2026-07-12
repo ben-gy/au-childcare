@@ -703,6 +703,24 @@ tbody tr[data-san], tbody tr[data-state], tbody tr[data-suburb] { cursor: pointe
 .glossary-tooltip strong { display: block; margin-bottom: 4px; font-size: var(--font-size-base); color: white; }
 .glossary-tooltip p { margin: 0; color: rgba(255, 255, 255, 0.85); }
 
+/* ─── Hover tooltip ([data-tip]) ───────────────────────── */
+.hover-tip {
+  position: fixed;
+  z-index: 2000; /* above Leaflet panes (~700), modal (400) and drilldown */
+  max-width: 300px;
+  background: var(--text-primary);
+  color: white;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  font-size: var(--font-size-sm);
+  line-height: 1.4;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 100ms;
+}
+.hover-tip.visible { opacity: 1; }
+
 /* ─── About modal ──────────────────────────────────────── */
 .modal-backdrop {
   position: fixed;

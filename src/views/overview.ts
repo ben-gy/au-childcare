@@ -10,7 +10,8 @@ function stackedBar(counts: Record<string, number>, total: number, width = 360):
     const c = counts[r] || 0;
     if (!c) continue;
     const w = (c / total) * width;
-    segments.push(`<rect x="${x}" y="0" width="${w}" height="14" fill="${ratingColor(r)}"><title>${r}: ${formatNumber(c)} (${formatPercent((c / total) * 100, 0)})</title></rect>`);
+    const tip = escapeHtml(`${r}: ${formatNumber(c)} (${formatPercent((c / total) * 100, 0)})`);
+    segments.push(`<rect x="${x}" y="0" width="${w}" height="14" fill="${ratingColor(r)}" data-tip="${tip}" aria-label="${tip}"></rect>`);
     x += w;
   }
   return `<svg viewBox="0 0 ${width} 14" class="stacked-bar" preserveAspectRatio="none">${segments.join('')}</svg>`;
