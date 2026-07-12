@@ -47,7 +47,7 @@ function renderShell() {
     <footer class="site-footer">
       <div class="footer-inner">
         <div>Data: <a href="https://www.acecqa.gov.au/resources/national-registers" target="_blank" rel="noopener">ACECQA National Registers</a>, refreshed daily. Population: <a href="https://www.abs.gov.au/statistics/people/population/regional-population" target="_blank" rel="noopener">ABS Regional Population</a>.</div>
-        <div>Built by <a href="https://benrichardson.dev/" target="_blank" rel="noopener">benrichardson.dev</a></div>
+        <div>Built by <a href="https://benrichardson.dev/" target="_blank" rel="noopener">benrichardson.dev</a> · <a href="https://hub.benrichardson.dev" target="_blank" rel="noopener">more tools &amp; sites</a></div>
       </div>
     </footer>
   `;
