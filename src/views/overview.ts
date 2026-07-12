@@ -49,7 +49,7 @@ export function mountOverview(el: HTMLElement, app: AppData, navigate: (view: st
   el.innerHTML = `
     <div class="view-header">
       <h2>The picture nationally</h2>
-      <p class="view-sub">Every approved early-learning and childcare service in Australia, with their current ${tag('NQS')} rating. Updated daily from the ${tag('ACECQA')} National Registers.</p>
+      <p class="view-sub">Every approved early-learning and childcare service in Australia, with their current ${tag('NQS')} rating. Updated monthly from the ${tag('ACECQA')} National Registers.</p>
     </div>
 
     <section class="kpi-grid">
