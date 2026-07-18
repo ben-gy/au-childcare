@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://au-childcare.benrichardson.dev/sitemap.xml
