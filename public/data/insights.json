@@ -24,13 +24,13 @@
   {
     "severity": "alert",
     "title": "Services currently rated Significant Improvement Required",
-    "detail": "10 services sit at the lowest National Quality Standard rating tier. This is the rating regulators issue when a service is failing multiple Quality Areas.",
+    "detail": "9 services sit at the lowest National Quality Standard rating tier. This is the rating regulators issue when a service is failing multiple Quality Areas.",
     "sample": [
       {
-        "san": "SE-40030033",
-        "name": "Leppington Montessori Academy",
-        "suburb": "LEPPINGTON",
-        "state": "NSW"
+        "san": "SE-00009893",
+        "name": "CatholicCare Children's Services - St Thomas More's Outside School Hours Care",
+        "suburb": "NEWSTEAD",
+        "state": "TAS"
       },
       {
         "san": "SE-00003596",
@@ -39,22 +39,16 @@
         "state": "VIC"
       },
       {
-        "san": "SE-40015938",
-        "name": "MINI MASTERMINDS SYDNEY OLYMPIC PARK",
-        "suburb": "SYDNEY OLYMPIC PARK",
-        "state": "NSW"
-      },
-      {
         "san": "SE-40003294",
         "name": "Gregory Hills Montessori Academy",
         "suburb": "GREGORY HILLS",
         "state": "NSW"
       },
       {
-        "san": "SE-00009893",
-        "name": "CatholicCare Children's Services - St Thomas More's Outside School Hours Care",
-        "suburb": "NEWSTEAD",
-        "state": "TAS"
+        "san": "SE-40015938",
+        "name": "MINI MASTERMINDS SYDNEY OLYMPIC PARK",
+        "suburb": "SYDNEY OLYMPIC PARK",
+        "state": "NSW"
       },
       {
         "san": "SE-00008899",
@@ -69,16 +63,16 @@
         "state": "NSW"
       },
       {
+        "san": "SE-40030033",
+        "name": "Leppington Montessori Academy",
+        "suburb": "LEPPINGTON",
+        "state": "NSW"
+      },
+      {
         "san": "SE-40002124",
         "name": "OMEGA FAMILY DAYCARE",
         "suburb": "DANDENONG NORTH",
         "state": "VIC"
-      },
-      {
-        "san": "SE-40026443",
-        "name": "Tallawong Early Learning",
-        "suburb": "TALLAWONG",
-        "state": "NSW"
       },
       {
         "san": "SE-00008605",
@@ -91,7 +85,7 @@
   {
     "severity": "info",
     "title": "Suburbs with 5+ services and zero Working Towards",
-    "detail": "662 suburbs have at least 5 rated services and no service rated Working Towards NQS. Top by size: CASTLE HILL (NSW) 36, BERWICK (VIC) 35, HOPPERS CROSSING (VIC) 34, CLYDE NORTH (VIC) 33, DANDENONG (VIC) 30, CROYDON (VIC) 29.",
+    "detail": "667 suburbs have at least 5 rated services and no service rated Working Towards NQS. Top by size: CASTLE HILL (NSW) 36, BERWICK (VIC) 35, HOPPERS CROSSING (VIC) 34, CLYDE NORTH (VIC) 32, CROYDON (VIC) 29, DANDENONG (VIC) 29.",
     "suburbs": [
       {
         "suburb": "CASTLE HILL",
@@ -111,15 +105,15 @@
       {
         "suburb": "CLYDE NORTH",
         "state": "VIC",
-        "services": 33
-      },
-      {
-        "suburb": "DANDENONG",
-        "state": "VIC",
-        "services": 30
+        "services": 32
       },
       {
         "suburb": "CROYDON",
+        "state": "VIC",
+        "services": 29
+      },
+      {
+        "suburb": "DANDENONG",
         "state": "VIC",
         "services": 29
       },
@@ -129,18 +123,28 @@
         "services": 29
       },
       {
-        "suburb": "FRANKSTON",
-        "state": "VIC",
-        "services": 28
-      },
-      {
         "suburb": "ST ALBANS",
         "state": "VIC",
         "services": 28
       },
       {
+        "suburb": "FRANKSTON",
+        "state": "VIC",
+        "services": 27
+      },
+      {
         "suburb": "RANDWICK",
         "state": "NSW",
+        "services": 23
+      },
+      {
+        "suburb": "TRARALGON",
+        "state": "VIC",
+        "services": 23
+      },
+      {
+        "suburb": "FERNTREE GULLY",
+        "state": "VIC",
         "services": 23
       },
       {
@@ -154,14 +158,9 @@
         "services": 23
       },
       {
-        "suburb": "FERNTREE GULLY",
+        "suburb": "ENDEAVOUR HILLS",
         "state": "VIC",
-        "services": 23
-      },
-      {
-        "suburb": "TRARALGON",
-        "state": "VIC",
-        "services": 23
+        "services": 22
       },
       {
         "suburb": "PARRAMATTA",
@@ -184,22 +183,7 @@
         "services": 22
       },
       {
-        "suburb": "QUAKERS HILL",
-        "state": "NSW",
-        "services": 22
-      },
-      {
-        "suburb": "ENDEAVOUR HILLS",
-        "state": "VIC",
-        "services": 22
-      },
-      {
-        "suburb": "CHELTENHAM",
-        "state": "VIC",
-        "services": 22
-      },
-      {
-        "suburb": "LANGWARRIN",
+        "suburb": "MOOROOLBARK",
         "state": "VIC",
         "services": 21
       },
@@ -209,18 +193,23 @@
         "services": 21
       },
       {
+        "suburb": "CHELTENHAM",
+        "state": "VIC",
+        "services": 21
+      },
+      {
+        "suburb": "LANGWARRIN",
+        "state": "VIC",
+        "services": 21
+      },
+      {
         "suburb": "BYFORD",
         "state": "WA",
         "services": 20
       },
       {
-        "suburb": "MOOROOLBARK",
-        "state": "VIC",
-        "services": 20
-      },
-      {
-        "suburb": "MILL PARK",
-        "state": "VIC",
+        "suburb": "GREYSTANES",
+        "state": "NSW",
         "services": 20
       },
       {
@@ -239,8 +228,13 @@
         "services": 19
       },
       {
-        "suburb": "MOSMAN",
-        "state": "NSW",
+        "suburb": "KEYSBOROUGH",
+        "state": "VIC",
+        "services": 19
+      },
+      {
+        "suburb": "MILL PARK",
+        "state": "VIC",
         "services": 19
       }
     ]
@@ -248,7 +242,7 @@
   {
     "severity": "warn",
     "title": "Suburbs with high concentrations of Working Towards services",
-    "detail": "28 suburbs have 40% or more of their rated services sitting at Working Towards NQS. Highest: RIVERSIDE (TAS) 60%, WOREE (QLD) 60%, QUINNS ROCKS (WA) 60%, BLAIR ATHOL (SA) 50%, MODBURY (SA) 50%.",
+    "detail": "23 suburbs have 40% or more of their rated services sitting at Working Towards NQS. Highest: RIVERSIDE (TAS) 60%, WOREE (QLD) 60%, QUINNS ROCKS (WA) 60%, MODBURY (SA) 50%, BOMADERRY (NSW) 50%.",
     "suburbs": [
       {
         "suburb": "RIVERSIDE",
@@ -269,12 +263,6 @@
         "pct": 60
       },
       {
-        "suburb": "BLAIR ATHOL",
-        "state": "SA",
-        "services": 5,
-        "pct": 50
-      },
-      {
         "suburb": "MODBURY",
         "state": "SA",
         "services": 6,
@@ -284,12 +272,6 @@
         "suburb": "BOMADERRY",
         "state": "NSW",
         "services": 9,
-        "pct": 50
-      },
-      {
-        "suburb": "MUNDINGBURRA",
-        "state": "QLD",
-        "services": 6,
         "pct": 50
       },
       {
@@ -311,15 +293,21 @@
         "pct": 50
       },
       {
+        "suburb": "MOUNT PRITCHARD",
+        "state": "NSW",
+        "services": 7,
+        "pct": 50
+      },
+      {
         "suburb": "GREENBANK",
         "state": "QLD",
         "services": 9,
         "pct": 50
       },
       {
-        "suburb": "MOUNT PRITCHARD",
-        "state": "NSW",
-        "services": 6,
+        "suburb": "BLAIR ATHOL",
+        "state": "SA",
+        "services": 5,
         "pct": 50
       },
       {
@@ -327,12 +315,6 @@
         "state": "QLD",
         "services": 6,
         "pct": 50
-      },
-      {
-        "suburb": "EDMONTON",
-        "state": "QLD",
-        "services": 7,
-        "pct": 42.9
       },
       {
         "suburb": "WHYALLA NORRIE",
@@ -347,21 +329,9 @@
         "pct": 42.9
       },
       {
-        "suburb": "ANGLE VALE",
-        "state": "SA",
-        "services": 12,
-        "pct": 41.7
-      },
-      {
-        "suburb": "NARRABUNDAH",
-        "state": "ACT",
+        "suburb": "MUNDINGBURRA",
+        "state": "QLD",
         "services": 5,
-        "pct": 40
-      },
-      {
-        "suburb": "MORPHETT VALE",
-        "state": "SA",
-        "services": 30,
         "pct": 40
       },
       {
@@ -386,12 +356,6 @@
         "suburb": "FLETCHER",
         "state": "NSW",
         "services": 5,
-        "pct": 40
-      },
-      {
-        "suburb": "GOLDEN GROVE",
-        "state": "SA",
-        "services": 10,
         "pct": 40
       },
       {
@@ -500,40 +464,8 @@
   {
     "severity": "warn",
     "title": "Services that dropped from Exceeding/Excellent to Working Towards or below",
-    "detail": "134 services dropped two or more tiers between rating cycles.",
+    "detail": "129 services dropped two or more tiers between rating cycles.",
     "sample": [
-      {
-        "san": "SE-00009753",
-        "name": "Brindabella Christian College Early Learning Centre",
-        "suburb": "LYNEHAM",
-        "state": "ACT",
-        "prev": "Exceeding NQS",
-        "now": "Working Towards NQS"
-      },
-      {
-        "san": "SE-00009755",
-        "name": "Bruce Ridge Early Childhood Centre",
-        "suburb": "BRUCE",
-        "state": "ACT",
-        "prev": "Exceeding NQS",
-        "now": "Working Towards NQS"
-      },
-      {
-        "san": "SE-00009759",
-        "name": "Calwell Early Childhood Centre",
-        "suburb": "CALWELL",
-        "state": "ACT",
-        "prev": "Exceeding NQS",
-        "now": "Working Towards NQS"
-      },
-      {
-        "san": "SE-00009856",
-        "name": "Weston Creek Children's Centre",
-        "suburb": "WESTON",
-        "state": "ACT",
-        "prev": "Exceeding NQS",
-        "now": "Working Towards NQS"
-      },
       {
         "san": "SE-00009873",
         "name": "Blackmans Bay Outside School Hours Care",
@@ -543,18 +475,10 @@
         "now": "Working Towards NQS"
       },
       {
-        "san": "SE-00012396",
-        "name": "Bayswater Out Of School",
-        "suburb": "BAYSWATER",
-        "state": "WA",
-        "prev": "Exceeding NQS",
-        "now": "Working Towards NQS"
-      },
-      {
-        "san": "SE-00010937",
-        "name": "St Joseph's Preschool - Ottoway",
-        "suburb": "OTTOWAY",
-        "state": "SA",
+        "san": "SE-00009881",
+        "name": "Gaia's Nest",
+        "suburb": "MORNINGTON",
+        "state": "TAS",
         "prev": "Exceeding NQS",
         "now": "Working Towards NQS"
       },
@@ -584,8 +508,24 @@
       },
       {
         "san": "SE-00011062",
-        "name": "Toy Box Community Child Care Centre",
+        "name": "Toybox Community Children's Centre",
         "suburb": "PORT LINCOLN",
+        "state": "SA",
+        "prev": "Exceeding NQS",
+        "now": "Working Towards NQS"
+      },
+      {
+        "san": "SE-00011092",
+        "name": "Waikerie Primary School OSHC",
+        "suburb": "WAIKERIE",
+        "state": "SA",
+        "prev": "Exceeding NQS",
+        "now": "Working Towards NQS"
+      },
+      {
+        "san": "SE-00011100",
+        "name": "Warradale Community Children's Centre Inc Parkholme Campus",
+        "suburb": "PARKHOLME",
         "state": "SA",
         "prev": "Exceeding NQS",
         "now": "Working Towards NQS"
@@ -623,10 +563,10 @@
         "now": "Working Towards NQS"
       },
       {
-        "san": "SE-00013366",
-        "name": "Ambrose School Age Care, Our Lady of the Way, Emu Plains",
-        "suburb": "EMU PLAINS",
-        "state": "NSW",
+        "san": "SE-00000241",
+        "name": "Mirambeena Children's Centre",
+        "suburb": "TOOWOOMBA",
+        "state": "QLD",
         "prev": "Exceeding NQS",
         "now": "Working Towards NQS"
       },
@@ -663,30 +603,6 @@
         "now": "Working Towards NQS"
       },
       {
-        "san": "SE-00010437",
-        "name": "Grange Primary School OSHC",
-        "suburb": "GRANGE",
-        "state": "SA",
-        "prev": "Exceeding NQS",
-        "now": "Working Towards NQS"
-      },
-      {
-        "san": "SE-00010478",
-        "name": "Hillbank Community Children's Centre",
-        "suburb": "HILLBANK",
-        "state": "SA",
-        "prev": "Exceeding NQS",
-        "now": "Working Towards NQS"
-      },
-      {
-        "san": "SE-00010488",
-        "name": "Golden Grove World of Learning",
-        "suburb": "GOLDEN GROVE",
-        "state": "SA",
-        "prev": "Exceeding NQS",
-        "now": "Working Towards NQS"
-      },
-      {
         "san": "SE-00010528",
         "name": "Kesters Community Early Education and Care",
         "suburb": "PARA HILLS WEST",
@@ -699,14 +615,6 @@
         "name": "Kidman Park Community Child Care Centre",
         "suburb": "KIDMAN PARK",
         "state": "SA",
-        "prev": "Exceeding NQS",
-        "now": "Working Towards NQS"
-      },
-      {
-        "san": "SE-00008174",
-        "name": "Little Cherubs Gerringong",
-        "suburb": "GERRINGONG",
-        "state": "NSW",
         "prev": "Exceeding NQS",
         "now": "Working Towards NQS"
       },
@@ -741,22 +649,70 @@
         "state": "VIC",
         "prev": "Exceeding NQS",
         "now": "Working Towards NQS"
+      },
+      {
+        "san": "SE-40006970",
+        "name": "Rochedale Kids Early Learning Centre",
+        "suburb": "ROCHEDALE",
+        "state": "QLD",
+        "prev": "Exceeding NQS",
+        "now": "Working Towards NQS"
+      },
+      {
+        "san": "SE-00011774",
+        "name": "Star of the Sea School OSHC",
+        "suburb": "HENLEY BEACH",
+        "state": "SA",
+        "prev": "Exceeding NQS",
+        "now": "Working Towards NQS"
+      },
+      {
+        "san": "SE-00011793",
+        "name": "Southern Montessori Education Centre",
+        "suburb": "O'SULLIVAN BEACH",
+        "state": "SA",
+        "prev": "Exceeding NQS",
+        "now": "Working Towards NQS"
+      },
+      {
+        "san": "SE-00011801",
+        "name": "Sunrise Christian School Whyalla Early Learning Centre",
+        "suburb": "WHYALLA NORRIE",
+        "state": "SA",
+        "prev": "Exceeding NQS",
+        "now": "Working Towards NQS"
+      },
+      {
+        "san": "SE-00009346",
+        "name": "Poppi's Too Preschool and Long Day Care",
+        "suburb": "MIRANDA",
+        "state": "NSW",
+        "prev": "Exceeding NQS",
+        "now": "Working Towards NQS"
+      },
+      {
+        "san": "SE-40017190",
+        "name": "Alphabet Pre School Centres",
+        "suburb": "WHITTINGTON",
+        "state": "VIC",
+        "prev": "Exceeding NQS",
+        "now": "Working Towards NQS"
+      },
+      {
+        "san": "SE-00013208",
+        "name": "Wesley OSHClub",
+        "suburb": "SOUTH PERTH",
+        "state": "WA",
+        "prev": "Exceeding NQS",
+        "now": "Working Towards NQS"
       }
     ]
   },
   {
     "severity": "info",
     "title": "Services that climbed from Working Towards or below to Exceeding/Excellent",
-    "detail": "135 services improved two or more tiers between rating cycles.",
+    "detail": "128 services improved two or more tiers between rating cycles.",
     "sample": [
-      {
-        "san": "SE-00009760",
-        "name": "YWCA Campbell Cottage",
-        "suburb": "CAMPBELL",
-        "state": "ACT",
-        "prev": "Working Towards NQS",
-        "now": "Exceeding NQS"
-      },
       {
         "san": "SE-00009767",
         "name": "Explore & Develop Conder",
@@ -806,14 +762,6 @@
         "now": "Exceeding NQS"
       },
       {
-        "san": "SE-00009823",
-        "name": "Peter Pan Early Learning by Busy Bees",
-        "suburb": "CURTIN",
-        "state": "ACT",
-        "prev": "Working Towards NQS",
-        "now": "Exceeding NQS"
-      },
-      {
         "san": "SE-00009829",
         "name": "YWCA Canberra Reid Early Childhood Centre",
         "suburb": "REID",
@@ -830,18 +778,10 @@
         "now": "Exceeding NQS"
       },
       {
-        "san": "SE-00012394",
-        "name": "Baya Gawiy Early Childhood Learning Unit",
-        "suburb": "FITZROY CROSSING",
-        "state": "WA",
-        "prev": "Working Towards NQS",
-        "now": "Exceeding NQS"
-      },
-      {
-        "san": "SE-00010973",
-        "name": "St Thomas Preschool",
-        "suburb": "GOODWOOD",
-        "state": "SA",
+        "san": "SE-00009856",
+        "name": "Weston Creek Children's Centre",
+        "suburb": "WESTON",
+        "state": "ACT",
         "prev": "Working Towards NQS",
         "now": "Exceeding NQS"
       },
@@ -862,18 +802,18 @@
         "now": "Exceeding NQS"
       },
       {
-        "san": "SE-00008638",
-        "name": "Empower Early Learning Centre",
-        "suburb": "ORCHARD HILLS",
-        "state": "NSW",
+        "san": "SE-00011081",
+        "name": "HAPPY HAVEN OSHC Vale Park",
+        "suburb": "VALE PARK",
+        "state": "SA",
         "prev": "Working Towards NQS",
         "now": "Exceeding NQS"
       },
       {
-        "san": "SE-40001102",
-        "name": "South Coogee Children's Services",
-        "suburb": "SOUTH COOGEE",
-        "state": "NSW",
+        "san": "SE-00011098",
+        "name": "Wandana Preschool",
+        "suburb": "GILLES PLAINS",
+        "state": "SA",
         "prev": "Working Towards NQS",
         "now": "Exceeding NQS"
       },
@@ -942,6 +882,22 @@
         "now": "Exceeding NQS"
       },
       {
+        "san": "SE-00013513",
+        "name": "Tabatinga - St Joseph's",
+        "suburb": "TWEED HEADS",
+        "state": "NSW",
+        "prev": "Working Towards NQS",
+        "now": "Exceeding NQS"
+      },
+      {
+        "san": "SE-00013534",
+        "name": "St Joseph's Outside School Hours Care",
+        "suburb": "MACLEAN",
+        "state": "NSW",
+        "prev": "Working Towards NQS",
+        "now": "Exceeding NQS"
+      },
+      {
         "san": "SE-00002544",
         "name": "Nightcliff Community Early Learning Centre",
         "suburb": "NIGHTCLIFF",
@@ -986,6 +942,14 @@
         "name": "Tillys Play and Education Centre - East Maitland",
         "suburb": "EAST MAITLAND",
         "state": "NSW",
+        "prev": "Working Towards NQS",
+        "now": "Exceeding NQS"
+      },
+      {
+        "san": "SE-00010463",
+        "name": "Happy Valley Community Children's Centre",
+        "suburb": "HAPPY VALLEY",
+        "state": "SA",
         "prev": "Working Towards NQS",
         "now": "Exceeding NQS"
       }

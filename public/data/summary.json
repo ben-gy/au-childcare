@@ -1,24 +1,24 @@
 {
-  "generated": "2026-07-22T23:31:30.799Z",
-  "totalServices": 18206,
-  "totalProviders": 7206,
-  "totalPlaces": 1249848,
+  "generated": "2026-08-05T09:06:54.485Z",
+  "totalServices": 18164,
+  "totalProviders": 7194,
+  "totalPlaces": 1246281,
   "byRating": {
     "Excellent": 25,
-    "Exceeding NQS": 3203,
-    "Meeting NQS": 12574,
-    "Working Towards NQS": 1324,
-    "Significant Improvement Required": 10,
+    "Exceeding NQS": 3163,
+    "Meeting NQS": 12629,
+    "Working Towards NQS": 1294,
+    "Significant Improvement Required": 9,
     "Other": 0
   },
   "byType": {
-    "OSHC (Vacation)": 5121,
-    "Centre-Based Care": 1071,
-    "Long Day Care": 9705,
-    "Preschool (School)": 897,
-    "Preschool (Stand-alone)": 3087,
-    "Other": 728,
-    "Family Day Care": 352
+    "Long Day Care": 9693,
+    "Preschool (School)": 900,
+    "OSHC (Vacation)": 5128,
+    "Centre-Based Care": 1053,
+    "Family Day Care": 339,
+    "Preschool (Stand-alone)": 3079,
+    "Other": 734
   },
   "statePopChildren012": {
     "NSW": 1320000,
